@@ -9,7 +9,6 @@ This script allows you to save and load games in the PlateUp game on your comput
 ## Installing
 1. Download or clone the repository to your local machine
 2. Navigate to the root directory of the project in your terminal
-3. Run `pip install -r requirements.txt` to install the required dependencies
 
 ## Usage
 The script can be executed with the following command: 
