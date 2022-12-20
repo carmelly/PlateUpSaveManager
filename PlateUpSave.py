@@ -63,8 +63,8 @@ def load_game(game):
             # Save the current game
             save_game(save_name)
 
-        # delete the current game 
-        shutil.rmtree(current_game)
+    # Delete the current game folder
+    shutil.rmtree(current_game)
 
     # Load the game from the specified save folder
     shutil.copytree(src, current_game)
