@@ -24,11 +24,22 @@ The script can be executed with the following command:
 - `--path`: The path to the PlateUp data folder. This is usually `C:/Users/%USER%/AppData/LocalLow/It's Happening/PlateUp` on Windows systems. If not provided, the script will try to detect the default path based on your system information.
 
 ### Examples
-1. Saving a game: 
-  python main.py save --name "MyGame" --path "C:/Users/%USER%/AppData/LocalLow/It's Happening/PlateUp"
-2. Loading a saved game:
-  python main.py load --name "MyGame" --path "C:/Users/%USER%/AppData/LocalLow/It's Happening/PlateUp"
-3. Listing all saved games:
-  python main.py list --path "C:/Users/%USER%/AppData/LocalLow/It's Happening/PlateUp"
+Saving a game: 
+  
+    python plateup_save.py save MyGame
+
+Loading a saved game:
+        
+    python plateup_save.py load MyGame
+
+Listing all saved games:
+
+    python plateup_save.py list
+    
+Using a custom path: 
+
+    python plateup_save.py save MyGame --path /path/to/PlateUp/folder 
+
+
 
 
