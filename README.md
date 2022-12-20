@@ -26,19 +26,19 @@ The script can be executed with the following command:
 ### Examples
 Saving a game: 
   
-    python ./plateup_save.py save MyGame
+    python plateup_save.py save MyGame
 
 Loading a saved game:
         
-    python ./plateup_save.py load MyGame
+    python plateup_save.py load MyGame
 
 Listing all saved games:
 
-    python ./plateup_save.py list
+    python plateup_save.py list
     
 Using a custom path: 
 
-    python ./plateup_save.py save MyGame --path /path/to/PlateUp/folder 
+    python plateup_save.py save MyGame --path /path/to/PlateUp/folder 
 
 
 
